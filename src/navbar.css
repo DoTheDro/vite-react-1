@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar a:target,
+.navbar a:focus {
+  outline: none;
+}
+
+.navbar .site-logo,
+.navbar .site-links {
+  width: 50%;
+  display: inline-block;
+}
+
+.navbar .site-logo a {
+  font-size: 2.3em;
+}
+
+.navbar .site-links a {
+  font-size: 1.5em;
+}
+
+.navbar .site-links a:hover {
+  color: #b70000;
+}
+
+.navbar .site-links ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.navbar .site-links li a.active {
+  color: #A71C1C;
+}

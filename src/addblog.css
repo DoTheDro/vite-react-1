@@ -1,0 +1,11 @@
+.add-blog-form input:focus,
+.add-blog-form input:focus-visible,
+.add-blog-form input:target,
+.add-blog-form textarea:focus,
+.add-blog-form textarea:focus-visible,
+.add-blog-form textarea:target,
+.add-blog-form button:focus,
+.add-blog-form button:focus-visible,
+.add-blog-form button:target {
+    outline: none;
+}
